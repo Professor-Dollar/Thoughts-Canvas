@@ -1,9 +1,6 @@
 
-import Image from "next/image";
-import blogs from "@/dummy-data/blogs";
-import truncateText from "@/utils/Truncation";
-import Link from "next/link";
 import BlogCard from "@/components/BlogCard";
+
 export default function Home() {
   return (
     <main className="flex-grow w-full">
