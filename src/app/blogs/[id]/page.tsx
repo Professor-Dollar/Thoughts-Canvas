@@ -2,7 +2,7 @@
 import Image from "next/image"
 import blogs from "@/dummy-data/blogs"
 import { useEffect, useState } from "react";
-const page = () => {
+const Page = () => {
   const [id, setId] = useState<number>(0); 
   useEffect(() => {
     const currentUrl = window.location.href; 
@@ -38,4 +38,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
