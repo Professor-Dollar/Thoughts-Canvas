@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
-      <body className="min-h-screen bg-slate-400/70 flex flex-col bg-slate-200">
+      <body className="font-[Gilroy]min-h-screen bg-slate-400/70 flex flex-col bg-slate-200">
         <Navbar />
         <div className="flex-grow">{children}</div>
         <Footer />
